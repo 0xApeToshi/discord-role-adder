@@ -22,4 +22,4 @@ python3 bot.py
 ```
 
 # Troubleshooting
-If you are gettin an error about missing certificates while connecting to the Discord host, run `install_certificate.py` to fix it.
+If you are getting an error about missing certificates while connecting to the Discord host, run `install_certificate.py` to fix it.
