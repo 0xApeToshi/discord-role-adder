@@ -40,5 +40,7 @@ async def on_ready():
             print("[ADDED]:", user)
         except Exception as e:
             print("[EXCEPTION]:", e)
+    print("Done!")
+    client.close()
 
 client.run(TOKEN)
