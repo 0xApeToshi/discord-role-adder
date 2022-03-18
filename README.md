@@ -12,7 +12,7 @@ However, I'm feeling a bit lazy (again) so I'll show how to install packages glo
 pip3 install -r requirements.txt
 ```
 
-Add a `.env` file with the `DISCORD_TOKEN=<your_token>"` line. In this example I am using a `list.csv` obtained from [premint](https://premint.xyz).
+Add a `.env` file with the `DISCORD_TOKEN=<your_token>` line. In this example I am using a `list.csv` obtained from [premint](https://premint.xyz).
 In the `bot.py` file change the `ROLE_ID` to the role you will be assigning. You can use `\@rolename` in the chat to obtain it.
 
 Finally, run it with:
